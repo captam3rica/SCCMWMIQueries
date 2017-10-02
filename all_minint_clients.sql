@@ -20,9 +20,9 @@ SMS_R_System.Name like "MININT%"
 
 order by SMS_R_System.Name
 
-\\ Extras
+/*/// Extras ///*/
+
 and SMS_R_System.Name not like "%SCCM%"
 and SMS_R_System.Name not like "%MININT%"
-SMS_R_System.Name not like "%P[0-9][0-9][0-9][0-9][0-9]%"
 and SMS_R_System.OperatingSystemNameandVersion not like "%Server%"
 and SMS_R_System.IsVirtualMachine = 0
