@@ -16,4 +16,6 @@ SMS_R_System.SMSUniqueIdentifier
 
 from  SMS_R_System
 
+where SMS_R_System.OperatingSystemNameandVersion like "Microsoft Windows NT Workstation%"
+
 order by SMS_R_System.Name
