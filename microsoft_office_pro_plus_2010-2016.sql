@@ -21,11 +21,8 @@ where (SMS_G_System_ADD_REMOVE_PROGRAMS.DisplayName like "%Microsoft Office Prof
 order by SMS_G_System_ADD_REMOVE_PROGRAMS.DisplayName
 
 
-
-
-
 /*////////////////////////////////////////
-              2010 Only
+//////          2010 Only           //////
 ////////////////////////////////////////*/
 
 
